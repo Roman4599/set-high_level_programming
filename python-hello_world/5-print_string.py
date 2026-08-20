@@ -1,3 +1,4 @@
-str = "Holberton School"
+#!/usr/bin/env python3
+str = "SET"
 print(str * 3)
-print(str[:9])
+print(str[:3])
