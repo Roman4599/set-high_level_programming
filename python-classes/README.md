@@ -7,6 +7,7 @@ Python project on object-oriented programming: classes and objects.
 | File | Description |
 | ---- | ----------- |
 | `0-square.py` | Empty class `Square`. |
+| `1-square.py` | Square with a private `size` attribute. |
 
 ## Requirements
 
