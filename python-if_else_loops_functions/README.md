@@ -7,6 +7,7 @@ Python basics: conditional statements, loops, and functions.
 | File | Description |
 | ---- | ----------- |
 | `0-positive_or_negative.py` | Assigns a random signed number and prints whether it is positive, zero, or negative. |
+| `1-last_digit.py` | Assigns a random signed number and prints its last digit with a comparison. |
 
 ## Requirements
 
