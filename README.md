@@ -7,6 +7,7 @@ Each directory corresponds to a project and contains the scripts written for it.
 
 - `python-if_else_loops_functions/` — Python basics: if/else, loops, functions.
 - `python-more_data_structures/` — More data structures: sets, dictionaries, matrix manipulation.
+- `python-more_classes/` — Object-oriented programming: classes and objects.
 
 ## Requirements
 
