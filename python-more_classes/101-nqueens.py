@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+"""Solves the N queens puzzle."""
+
 import sys
 
 
 def solve_nqueens(n):
+    """Return all solutions for placing N non-attacking queens."""
     solutions = []
     board = [0] * n
 
