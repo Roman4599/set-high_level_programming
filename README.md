@@ -1,21 +1,18 @@
-# Python Hello World
+# set-high_level_programming
 
-This project is an introduction to Python programming.
+Higher-level programming projects for the Holberton School / ALX curriculum.
+Each directory corresponds to a project and contains the scripts written for it.
 
-## Tasks
+## Contents
 
-### 0. Run Python File
-- **File:** `0-run`
-- **Description:** Shell script that runs a Python script from the environment variable $PYFILE
-
-### 1. Run Inline
-- **File:** `1-run_inline`
-- **Description:** Shell script that runs Python code from the environment variable $PYCODE
+- `python-if_else_loops_functions/` — Python basics: if/else, loops, functions.
 
 ## Requirements
-- Python 3
-- Ubuntu 20.04
-- Shell scripts must be executable
+
+- Ubuntu 20.04 LTS
+- python3 (version 3.8.5)
+- Code follows PEP 8 style (`pycodestyle`)
 
 ## Author
-Roman4599
+
+Admin
