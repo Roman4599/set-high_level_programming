@@ -23,6 +23,7 @@ Python basics: conditional statements, loops, and functions.
 | `lists.h` | Header for the singly linked list functions. |
 | `100-print_tebahpla.py` | Prints the ASCII alphabet in reverse, alternating case. |
 | `101-remove_char_at.py` | Creates a copy of a string, removing the character at position `n`. |
+| `102-magic_calculation.py` | Python function matching a given bytecode (conditions and arithmetic). |
 
 ## Requirements
 
