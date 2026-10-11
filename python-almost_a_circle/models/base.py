@@ -140,11 +140,16 @@ class Base:
                 continue
             values = [int(value) for value in line.split(",")]
             if cls.__name__ == "Rectangle":
-                instances.append(cls(values[1], values[2],
-                                     values[3], values[4], values[0]))
+                dictionary = {
+                    "id": values[0], "width": values[1],
+                    "height": values[2], "x": values[3], "y": values[4]
+                }
             else:
-                instances.append(cls(values[1], values[2],
-                                     values[3], values[0]))
+                dictionary = {
+                    "id": values[0], "size": values[1],
+                    "x": values[2], "y": values[3]
+                }
+            instances.append(cls.create(**dictionary))
         return instances
 
     @staticmethod
