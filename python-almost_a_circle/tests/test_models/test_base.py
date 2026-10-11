@@ -96,6 +96,16 @@ class TestBase(unittest.TestCase):
             self.assertEqual(
                 file.read(), '[{"id": 10, "size": 5, "x": 2, "y": 3}]')
 
+    def test_save_to_file_square_none(self):
+        Square.save_to_file(None)
+        with open("Square.json", "r") as file:
+            self.assertEqual(file.read(), "[]")
+
+    def test_save_to_file_square_empty(self):
+        Square.save_to_file([])
+        with open("Square.json", "r") as file:
+            self.assertEqual(file.read(), "[]")
+
     def test_load_from_file_missing(self):
         self.assertEqual(Rectangle.load_from_file(), [])
 

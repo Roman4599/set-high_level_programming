@@ -91,6 +91,10 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(ValueError):
             Rectangle(0, 10)
 
+    def test_height_zero(self):
+        with self.assertRaises(ValueError):
+            Rectangle(1, 0)
+
     def test_height_value(self):
         with self.assertRaises(ValueError) as err:
             Rectangle(5, -10)

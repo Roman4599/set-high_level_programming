@@ -60,6 +60,30 @@ class TestSquare(unittest.TestCase):
         with self.assertRaises(ValueError):
             Square(0)
 
+    def test_size_type_positional(self):
+        with self.assertRaises(TypeError):
+            Square("1")
+
+    def test_x_type(self):
+        with self.assertRaises(TypeError):
+            Square(1, "2")
+
+    def test_y_type(self):
+        with self.assertRaises(TypeError):
+            Square(1, 2, "3")
+
+    def test_size_negative(self):
+        with self.assertRaises(ValueError):
+            Square(-1)
+
+    def test_x_negative(self):
+        with self.assertRaises(ValueError):
+            Square(1, -2)
+
+    def test_y_negative(self):
+        with self.assertRaises(ValueError):
+            Square(1, 2, -3)
+
     def test_str(self):
         self.assertEqual(str(Square(5, 2, 3, 10)), "[Square] (10) 2/3 - 5")
 
